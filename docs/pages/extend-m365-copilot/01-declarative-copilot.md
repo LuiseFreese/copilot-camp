@@ -187,7 +187,7 @@ You could also update the logo files `color.png` and `outline.png` to make it ma
 
 ### Step 1: Update icons and manifests
 
-First we will do the easy bit which is replacing the logo. Copy the image located [here](../../assets/images/extend-m365-copilot-01/color.png){target=_blank} and replace it with the image of same name in the folder **appPackage** in your root project. 
+First we will do the easy bit which is replacing the logo. Save the image located [here](../../assets/images/extend-m365-copilot-01/color.png){target=_blank} and replace the image of same name in the folder **appPackage**  with it. 
 
 Next, go to the file **appPackage/manifest.json**  in your root project and find the node **copilotAgents**. Update the id value of the declarativeAgents array's first entry from `declarativeAgent` to `dcGeolocator` to make this ID unique.
 
